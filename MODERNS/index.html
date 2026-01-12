@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A.M Niaz Rahman | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (Social Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="container nav">
+    <h1 class="logo">Assalamualaikum</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h2>Hello, I’m</h2>
+      <h1>A.M Niaz Rahman</h1>
+      <p class="subtitle">Designer · Student · Sales Manager</p>
+      <a href="#contact" class="btn-primary">Get in Touch</a>
+    </div>
+    <div class="hero-img">
+      <img src="header.png" alt="A.M Niaz Rahman">
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I am a Naval Architecture and Offshore Engineering student with 5 years of experience in leadership,
+      event management, and community activities.
+      <br><br>
+      I enjoy building networks, managing impactful events, and working on strategic projects that create real value.
+    </p>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section dark">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Leadership</div>
+      <div class="skill-card">Event Management</div>
+      <div class="skill-card">Strategic Planning</div>
+      <div class="skill-card">Networking</div>
+      <div class="skill-card">Community Building</div>
+      <div class="skill-card">Engineering</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Projects & Experience</h2>
+
+    <div class="project-card">
+      <h3>TEDx Bangladesh Maritime University</h3>
+      <p>Successfully managed and coordinated a national-level event.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Flood Relief & Community Presidency</h3>
+      <p>Led flood relief efforts and served as President of PUSAK.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section dark">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-icons">
+    <a href="https://www.facebook.com/niazrahman.012/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.linkedin.com/in/am-niaz-rahman-64861833a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://x.com/am_niazrahman" target="_blank"><i class="fab fa-x-twitter"></i></a>
+  </div>
+  <p class="footer-text">© 2026 A.M Niaz Rahman. All Rights Reserved.</p>
+</footer>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("gZZfnW74EYfFMCyXF"); // ✅ YOUR PUBLIC KEY
+  })();
+</script>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
